@@ -1,0 +1,47 @@
+2026-05-01 14:39:17,863 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-01 14:39:17,863 - [33mPress CTRL+C to quit[0m
+2026-05-01 14:39:17,893 -  * Restarting with watchdog (windowsapi)
+2026-05-01 14:39:18,440 -  * Debugger is active!
+2026-05-01 14:39:18,444 -  * Debugger PIN: 160-245-151
+2026-05-01 14:43:33,210 - 127.0.0.1 - - [01/May/2026 14:43:33] "[31m[1mGET /profile HTTP/1.1[0m" 401 -
+2026-05-01 14:50:39,288 - 127.0.0.1 - - [01/May/2026 14:50:39] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-05-01 14:51:02,082 - 127.0.0.1 - - [01/May/2026 14:51:02] "[31m[1mGET /profile HTTP/1.1[0m" 401 -
+2026-05-01 14:51:09,322 - 127.0.0.1 - - [01/May/2026 14:51:09] "POST /login HTTP/1.1" 200 -
+2026-05-01 14:51:29,186 - 127.0.0.1 - - [01/May/2026 14:51:29] "[31m[1mGET /profile HTTP/1.1[0m" 401 -
+2026-05-01 14:51:56,222 - 127.0.0.1 - - [01/May/2026 14:51:56] "[31m[1mGET /profile HTTP/1.1[0m" 401 -
+2026-05-01 14:52:19,027 - 127.0.0.1 - - [01/May/2026 14:52:19] "[31m[1mGET /profile HTTP/1.1[0m" 401 -
+2026-05-01 14:56:19,286 - 127.0.0.1 - - [01/May/2026 14:56:19] "POST /login HTTP/1.1" 200 -
+2026-05-01 14:57:26,812 - 127.0.0.1 - - [01/May/2026 14:57:26] "GET /profile HTTP/1.1" 200 -
+2026-05-01 15:03:04,935 - 403 Forbidden - User 'user1' with role 'User' attempted '/user/1'
+2026-05-01 15:03:04,936 - 127.0.0.1 - - [01/May/2026 15:03:04] "[31m[1mDELETE /user/1 HTTP/1.1[0m" 403 -
+2026-05-01 15:05:43,181 - 127.0.0.1 - - [01/May/2026 15:05:43] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-05-01 15:06:15,041 - 403 Forbidden - User 'user1' with role 'User' attempted '/user/1'
+2026-05-01 15:06:15,042 - 127.0.0.1 - - [01/May/2026 15:06:15] "[31m[1mDELETE /user/1 HTTP/1.1[0m" 403 -
+2026-05-01 15:08:22,599 - 127.0.0.1 - - [01/May/2026 15:08:22] "POST /login HTTP/1.1" 200 -
+2026-05-01 15:08:30,811 -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\json\\provider.py', reloading
+2026-05-01 15:08:30,932 -  * Restarting with watchdog (windowsapi)
+2026-05-01 15:08:32,484 -  * Debugger is active!
+2026-05-01 15:08:32,492 -  * Debugger PIN: 160-245-151
+2026-05-01 15:08:34,771 -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\SecureShield\\app.py', reloading
+2026-05-01 15:08:34,827 -  * Restarting with watchdog (windowsapi)
+2026-05-01 15:08:35,389 -  * Debugger is active!
+2026-05-01 15:08:35,391 -  * Debugger PIN: 160-245-151
+2026-05-01 15:08:36,342 -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\SecureShield\\app.py', reloading
+2026-05-01 15:08:36,386 -  * Restarting with watchdog (windowsapi)
+2026-05-01 15:08:36,876 -  * Debugger is active!
+2026-05-01 15:08:36,879 -  * Debugger PIN: 160-245-151
+2026-05-01 15:08:56,618 - 127.0.0.1 - - [01/May/2026 15:08:56] "DELETE /user/1 HTTP/1.1" 200 -
+2026-05-01 15:12:32,379 - 127.0.0.1 - - [01/May/2026 15:12:32] "[31m[1mGET /profile HTTP/1.1[0m" 401 -
+2026-05-01 15:12:33,925 - 127.0.0.1 - - [01/May/2026 15:12:33] "[31m[1mGET /profile HTTP/1.1[0m" 401 -
+2026-05-01 15:14:41,252 - 127.0.0.1 - - [01/May/2026 15:14:41] "GET /profile HTTP/1.1" 200 -
+2026-05-01 15:14:47,243 - 127.0.0.1 - - [01/May/2026 15:14:47] "[31m[1mGET /profile HTTP/1.1[0m" 401 -
+2026-05-01 15:49:15,296 -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading
+2026-05-01 15:49:15,526 -  * Restarting with watchdog (windowsapi)
+2026-05-01 15:49:16,186 -  * Debugger is active!
+2026-05-01 15:49:16,191 -  * Debugger PIN: 160-245-151
+2026-05-01 15:49:16,265 -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jwt\\api_jwt.py', reloading
+2026-05-01 15:49:16,303 -  * Restarting with watchdog (windowsapi)
+2026-05-01 15:49:16,647 -  * Debugger is active!
+2026-05-01 15:49:16,650 -  * Debugger PIN: 160-245-151
+2026-05-01 15:54:39,141 - 127.0.0.1 - - [01/May/2026 15:54:39] "[31m[1mGET /profile HTTP/1.1[0m" 401 -
